@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abeer Khaled Abu Yousef | Data Analyst</title>
+  <meta name="description" content="Portfolio of Abeer Khaled Abu Yousef, Data Analyst working with Python, SQL, Excel and Power BI." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            deep: "#040b1c",   /* خلفية الصفحة */
+            card: "#0b1530",   /* البطاقات */
+            edge: "#1b2a55",   /* الحدود */
+            brand: "#4d8dff",  /* الأرقام والعناوين الفرعية */
+            sky: "#a9c8ff",    /* المسمى الوظيفي */
+            slate2: "#9db0d3", /* النص الثانوي */
+          },
+          fontFamily: { sans: ["Ubuntu", "system-ui", "sans-serif"] },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    body { background: #040b1c; }
+    .hero-bg { background: linear-gradient(115deg, #0a1a52 0%, #1649c9 52%, #1479d1 100%); }
+    :focus-visible { outline: 2px solid #a9c8ff; outline-offset: 3px; border-radius: 8px; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+
+<body class="font-sans text-white antialiased">
+
+  <!-- ===== HERO ===== -->
+  <header class="hero-bg pb-24 pt-16 sm:pt-20">
+    <div class="mx-auto grid max-w-6xl items-center gap-10 px-5 md:grid-cols-[1fr_auto] md:px-8">
+
+      <div>
+        <h1 class="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Abeer Khaled Abu Yousef</h1>
+        <p class="mt-3 text-lg font-bold text-sky sm:text-xl">Data Analyst · Python, SQL, Excel &amp; Power BI</p>
+        <p class="mt-5 max-w-xl text-lg leading-relaxed text-white/90">
+          Data is more than just raw numbers—it’s the story of your business waiting to be told. I help organizations transform complex datasets into clear, actionable insights for smarter decision-making.
+        </p>
+
+        <!-- عدّل الروابط -->
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="mailto:you@example.com" class="rounded-lg bg-white px-5 py-2.5 font-medium text-deep transition hover:bg-sky">Email me</a>
+          <a href="https://wa.me/970000000000" target="_blank" rel="noopener" class="rounded-lg border border-white/30 bg-white/10 px-5 py-2.5 font-medium transition hover:bg-white/20">WhatsApp</a>
+          <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener" class="rounded-lg border border-white/30 bg-white/10 px-5 py-2.5 font-medium transition hover:bg-white/20">LinkedIn</a>
+          <a href="https://github.com/your-handle" target="_blank" rel="noopener" class="rounded-lg border border-white/30 bg-white/10 px-5 py-2.5 font-medium transition hover:bg-white/20">GitHub</a>
+        </div>
+      </div>
+
+      <!-- الصورة الشخصية: ضع ملف photo.jpg بجانب index.html -->
+      <div class="mx-auto md:mx-0">
+        <div class="rounded-full bg-gradient-to-br from-cyan-300 via-blue-400 to-violet-400 p-2.5 shadow-2xl shadow-black/40">
+          <div class="rounded-full bg-[#0a1a52] p-2.5">
+            <div class="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white bg-[#c9d3e8] sm:h-56 sm:w-56">
+              <span class="absolute inset-0 grid place-items-center text-6xl font-bold text-[#0a1a52]/40" aria-hidden="true">AK</span>
+              <img src="photo.jpg" alt="Portrait of Abeer Khaled Abu Yousef" class="relative h-full w-full object-cover" onerror="this.style.display='none'" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== METRICS ===== -->
+  <section class="relative z-10 -mt-12" aria-label="Key numbers">
+    <dl class="mx-auto grid max-w-6xl grid-cols-2 gap-4 px-5 md:px-8 lg:grid-cols-4">
+      <div class="rounded-xl border border-edge bg-card p-5 text-center shadow-lg shadow-blue-900/30"><dd class="text-3xl font-bold text-brand">10k+</dd><dt class="mt-1 text-sm text-slate2">rows cleaned and preprocessed</dt></div>
+      <div class="rounded-xl border border-edge bg-card p-5 text-center shadow-lg shadow-blue-900/30"><dd class="text-3xl font-bold text-brand">4</dd><dt class="mt-1 text-sm text-slate2">core tools: Python, SQL, Excel, Power BI</dt></div>
+      <div class="rounded-xl border border-edge bg-card p-5 text-center shadow-lg shadow-blue-900/30"><dd class="text-3xl font-bold text-brand">2</dd><dt class="mt-1 text-sm text-slate2">dashboard types: HTML and Power BI</dt></div>
+      <div class="rounded-xl border border-edge bg-card p-5 text-center shadow-lg shadow-blue-900/30"><dd class="text-3xl font-bold text-brand">EDA</dd><dt class="mt-1 text-sm text-slate2">end-to-end analysis projects</dt></div>
+    </dl>
+  </section>
+
+  <!-- ===== NAV ===== -->
+  <nav class="sticky top-0 z-30 mt-12 border-y border-edge bg-deep/90 backdrop-blur" aria-label="Sections">
+    <ul class="mx-auto flex max-w-6xl gap-6 overflow-x-auto whitespace-nowrap px-5 py-4 text-slate2 md:px-8">
+      <li><a class="hover:text-white" href="#about">About</a></li>
+      <li><a class="hover:text-white" href="#projects">Projects</a></li>
+      <li><a class="hover:text-white" href="#skills">Skills</a></li>
+      <li><a class="hover:text-white" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="mx-auto max-w-6xl px-5 md:px-8">
+
+    <!-- About -->
+    <section id="about" class="scroll-mt-16 py-16">
+      <h2 class="text-3xl font-bold">About</h2>
+      <div class="mt-6 grid gap-8 lg:grid-cols-[1.4fr_1fr]">
+        <div class="max-w-2xl space-y-4 text-lg leading-relaxed text-slate2">
+          <p>I work with businesses and teams struggling to clean, structure, or visualize their data effectively.</p>
+          <p>With a background in Software Engineering, I developed a strong foundation in logic and problem-solving, which naturally led me to specialize in Data Analysis using Python, SQL, Excel, and Power BI.</p>
+        </div>
+        <div class="rounded-xl border border-edge bg-card p-6">
+          <h3 class="font-medium text-brand">Key highlights</h3>
+          <ul class="mt-4 space-y-3 text-slate2">
+            <li>Cleaned and preprocessed large datasets (10k+ rows) for accurate analysis.</li>
+            <li>Developed interactive HTML and Power BI analytical dashboards to streamline reporting.</li>
+            <li>Executed end-to-end Exploratory Data Analysis (EDA) projects showcasing actionable business insights.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="scroll-mt-16 border-t border-edge py-16">
+      <h2 class="text-3xl font-bold">Projects</h2>
+      <div class="mt-8 grid gap-5 md:grid-cols-3">
+        <article class="flex flex-col rounded-xl border border-edge bg-card p-6">
+          <h3 class="text-xl font-medium">Large-scale data cleaning</h3>
+          <p class="mt-3 grow text-slate2">Cleaned and preprocessed datasets of 10k+ rows so the analysis that followed could be trusted.</p>
+          <ul class="mt-4 flex flex-wrap gap-2 text-xs text-sky"><li class="rounded-md bg-deep px-2.5 py-1">Python</li><li class="rounded-md bg-deep px-2.5 py-1">SQL</li></ul>
+          <a href="#" class="mt-5 text-sm font-medium text-brand hover:text-white">View project</a>
+        </article>
+        <article class="flex flex-col rounded-xl border border-edge bg-card p-6">
+          <h3 class="text-xl font-medium">Interactive dashboards</h3>
+          <p class="mt-3 grow text-slate2">Built HTML and Power BI dashboards that make recurring reports faster to produce and easier to read.</p>
+          <ul class="mt-4 flex flex-wrap gap-2 text-xs text-sky"><li class="rounded-md bg-deep px-2.5 py-1">Power BI</li><li class="rounded-md bg-deep px-2.5 py-1">HTML</li></ul>
+          <a href="#" class="mt-5 text-sm font-medium text-brand hover:text-white">View project</a>
+        </article>
+        <article class="flex flex-col rounded-xl border border-edge bg-card p-6">
+          <h3 class="text-xl font-medium">End-to-end EDA</h3>
+          <p class="mt-3 grow text-slate2">Took raw data through exploration and analysis to clear, actionable business insights.</p>
+          <ul class="mt-4 flex flex-wrap gap-2 text-xs text-sky"><li class="rounded-md bg-deep px-2.5 py-1">Python</li><li class="rounded-md bg-deep px-2.5 py-1">Excel</li></ul>
+          <a href="#" class="mt-5 text-sm font-medium text-brand hover:text-white">View project</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="scroll-mt-16 border-t border-edge py-16">
+      <h2 class="text-3xl font-bold">Skills</h2>
+      <div class="mt-8 grid gap-5 md:grid-cols-3">
+        <div class="rounded-xl border border-edge bg-card p-6">
+          <h3 class="font-medium text-brand">Analysis</h3>
+          <ul class="mt-4 flex flex-wrap gap-2 text-sm"><li class="rounded-md bg-deep px-3 py-1.5">Exploratory data analysis</li><li class="rounded-md bg-deep px-3 py-1.5">Data cleaning</li><li class="rounded-md bg-deep px-3 py-1.5">Data preprocessing</li></ul>
+        </div>
+        <div class="rounded-xl border border-edge bg-card p-6">
+          <h3 class="font-medium text-brand">Tools</h3>
+          <ul class="mt-4 flex flex-wrap gap-2 text-sm"><li class="rounded-md bg-deep px-3 py-1.5">Python</li><li class="rounded-md bg-deep px-3 py-1.5">SQL</li><li class="rounded-md bg-deep px-3 py-1.5">Excel</li><li class="rounded-md bg-deep px-3 py-1.5">Power BI</li></ul>
+        </div>
+        <div class="rounded-xl border border-edge bg-card p-6">
+          <h3 class="font-medium text-brand">Foundation</h3>
+          <ul class="mt-4 flex flex-wrap gap-2 text-sm"><li class="rounded-md bg-deep px-3 py-1.5">Software engineering</li><li class="rounded-md bg-deep px-3 py-1.5">Logic and problem-solving</li><li class="rounded-md bg-deep px-3 py-1.5">Reporting</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="scroll-mt-16 border-t border-edge py-16">
+      <div class="hero-bg rounded-2xl p-8 sm:p-12">
+        <h2 class="text-3xl font-bold">Let’s work together</h2>
+        <p class="mt-3 max-w-lg text-white/90">Send me a short description of what you need and when, and I’ll reply within one working day.</p>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="mailto:you@example.com" class="rounded-lg bg-white px-5 py-2.5 font-medium text-deep transition hover:bg-sky">Email me</a>
+          <a href="https://wa.me/970000000000" target="_blank" rel="noopener" class="rounded-lg border border-white/30 bg-white/10 px-5 py-2.5 font-medium transition hover:bg-white/20">WhatsApp</a>
+          <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener" class="rounded-lg border border-white/30 bg-white/10 px-5 py-2.5 font-medium transition hover:bg-white/20">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-edge">
+    <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-5 py-6 text-sm text-slate2 sm:flex-row md:px-8">
+      <p>© <span id="year">2026</span> Abeer Khaled Abu Yousef</p>
+      <a href="#" class="hover:text-white">Back to top</a>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
